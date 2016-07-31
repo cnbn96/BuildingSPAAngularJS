@@ -1,0 +1,43 @@
+﻿
+.ps-menu-area{
+    color: #edeaea;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    font-size: 15px;
+    background-color: #444;
+}
+
+.ps-menu{
+    list-style: none;
+    padding: 0;
+}
+
+.ps-select-item{    
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.ps-select-item:hover{
+    background: #808080;
+}
+
+.ps-menu-icon{
+    padding:0 18px;
+}
+
+.ps-noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.ps-menu-active-indicator{
+    float: right;
+    color: #ddd;
+    margin-right: 0;
+    margin-top: -25px;
+}
