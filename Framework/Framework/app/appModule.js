@@ -1,3 +1,3 @@
 ﻿"use strict";
 
-angular.module("app", ["psFramework", "ngAnimate"]);
+angular.module("app", ["psFramework"]);

@@ -1,3 +1,8 @@
-﻿<div class="ps-menu-area animate-show" ng-show="vm.isDisplay">
+﻿<div class="ps-menu-area"
+     ng-class="{'ps-menu-area-vertical':vm.isVertical, 'ps-menu-area-horizontal': !vm.isVertical}"
+     ng-show="vm.isDisplay">
     <ul class="ps-menu" ng-transclude></ul>
+    <a class="btn ps-menu-layout-button" ng-click="vm.toggleMenuLayout()">
+        <i class="fa fa-chevron-up"></i>
+    </a>
 </div>

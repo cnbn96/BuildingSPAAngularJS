@@ -5,6 +5,9 @@
 .container-fluid{
     padding: 0;
 }
+.float-right{
+    float: right;
+}
 
 .animate-show.ng-hide-add, .animate-show.ng-hide-remove {
   transition: all linear 0.5s;

@@ -1,11 +1,19 @@
 ﻿
 .ps-menu-area{
-    color: #edeaea;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
+    color: #edeaea;        
     font-size: 15px;
     background-color: #444;
+}
+
+.ps-menu-area-vertical{
+    width: 200px;
+    padding-top: 30px;
+    min-height: 100vh;
+}
+
+.ps-menu-area-horizontal{
+    width: 100%;
+    height: 46px;
 }
 
 .ps-menu{
@@ -40,4 +48,22 @@
     color: #ddd;
     margin-right: 0;
     margin-top: -25px;
+}
+
+.ps-menu-group-item{
+    padding-left: 25px;
+}
+
+.ps-menu-layout-button{
+    color: #bbb;
+    margin: 12px;
+    padding: 2px 8px;
+    background: #333;
+    border: 1px solid #999;
+}
+
+.ps-item-horizontal{
+    display: inline-block;
+    width: 184px !important;    
+    line-height: 1.5em !important;
 }

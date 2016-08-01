@@ -16,3 +16,9 @@ C:\Users\BINH\Desktop\AngularPlace\BuildingSPAAngularjs\2-exercise-files\05-psFr
 C:\Users\BINH\Desktop\AngularPlace\BuildingSPAAngularjs\2-exercise-files\05-psFramework\before\Framework\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
 C:\Users\BINH\Desktop\AngularPlace\BuildingSPAAngularjs\2-exercise-files\05-psFramework\before\Framework\Framework\obj\Debug\Framework.dll
 C:\Users\BINH\Desktop\AngularPlace\BuildingSPAAngularjs\2-exercise-files\05-psFramework\before\Framework\Framework\obj\Debug\Framework.pdb
+E:\BuildingSPAAngularJS\Framework\Framework\bin\Framework.dll.config
+E:\BuildingSPAAngularJS\Framework\Framework\bin\Framework.dll
+E:\BuildingSPAAngularJS\Framework\Framework\bin\Framework.pdb
+E:\BuildingSPAAngularJS\Framework\Framework\obj\Debug\Framework.dll
+E:\BuildingSPAAngularJS\Framework\Framework\obj\Debug\Framework.pdb
+E:\BuildingSPAAngularJS\Framework\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache

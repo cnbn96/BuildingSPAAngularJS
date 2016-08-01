@@ -1,0 +1,13 @@
+﻿<li class="ps-select-item"
+    ng-class="{'ps-item-horizontal': !isVertical()}"
+    ng-click="clicked()">
+    <div class="ps-noselect">
+        <i class="fa {{icon}} ps-menu-icon"></i>
+        {{label}}
+        <i class="fa fa-chevron-left ps-menu-icon"
+           ng-class="{'fa-rotate-270': isOpen}"></i>
+    </div>
+</li>
+<div ng-show="isOpen">
+    <ul ng-transclude class="ps-menu ps-menu-group-item"></ul>
+</div>
