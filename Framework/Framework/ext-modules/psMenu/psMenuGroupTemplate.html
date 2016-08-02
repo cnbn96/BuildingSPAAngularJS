@@ -8,6 +8,7 @@
            ng-class="{'fa-rotate-270': isOpen}"></i>
     </div>
 </li>
-<div ng-show="isOpen">
-    <ul ng-transclude class="ps-menu ps-menu-group-item"></ul>
+<div ng-show="isOpen" class="ps-slide-down">
+    <ul ng-transclude class="ps-menu ps-menu-group-item"
+        ng-class="{'ps-dropdown-submenu': !isVertical()}" ></ul>
 </div>

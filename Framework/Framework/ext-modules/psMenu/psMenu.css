@@ -4,6 +4,16 @@
     font-size: 15px;
     background-color: #444;
 }
+.ps-fade-in{
+    -moz-transition: linear all 0.5s;
+    -o-transition: linear all 0.5s;
+    -webkit-transition: linear all 0.5s;
+    transition: linear all 0.5s;   
+}
+
+.ps-fade-in.ng-hide{
+    opacity: 0;
+}
 
 .ps-menu-area-vertical{
     width: 200px;
@@ -12,6 +22,7 @@
 }
 
 .ps-menu-area-horizontal{
+    position:relative;
     width: 100%;
     height: 46px;
 }
@@ -60,6 +71,20 @@
     padding: 2px 8px;
     background: #333;
     border: 1px solid #999;
+}
+
+.ps-menu-layout-button-horizontal{
+    position:absolute;
+    right: 0;
+    top: -2px;
+}
+
+.ps-dropdown-submenu{
+    position: absolute;
+    z-index: 1000;
+    background: #444;
+    width: 184px;
+    padding: 0;
 }
 
 .ps-item-horizontal{
